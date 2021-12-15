@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Misfit EKYC</string>
+    <string name="confirm_string">Confirm</string>
+    <string name="exit_tittle_string">Do you want to Exit?</string>
+    <string name="ok_string">OK</string>
+    <string name="cancel_string">Cancel</string>
+    <string name="no">No</string>
+    <string name="no_internet">Please Connect To Internet</string>
+    <string name="wait_string">Loading</string>
+    <string name="something_went_wrong">Can Not Connect With Server</string>
+
+    <string name="onboard_string">Full Onboarding</string>
+    <string name="nrctittle_string">Upload Image for NRC</string>
+    <string name="start_string">Start</string>
+    <string name="next_string">Next</string>
+    <string name="browse_string">BROWSE</string>
+    <string name="cam_string">USE CAMERA</string>
+    <string name="retake_string">Retake</string>
+
+    <string name="nrcidhint_string">Enter NRC id</string>
+    <string name="nrcinfo_string">NRC Information</string>
+    <string name="namehint_string">Enter Full Name</string>
+    <string name="dobhint_string">Enter Date of Birth</string>
+    <string name="fathint_string">Enter Father Name</string>
+
+</resources>

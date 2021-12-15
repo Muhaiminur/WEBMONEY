@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/OFFICE/WEBMONEY/app/src/main/res/drawable/bg_drop_shadow.xml" value="0.16666666666666666" />
+        <entry key="..\:/OFFICE/WEBMONEY/app/src/main/res/drawable/ic_close.xml" value="0.12395833333333334" />
+        <entry key="..\:/OFFICE/WEBMONEY/app/src/main/res/drawable/ic_loading.xml" value="0.109375" />
+        <entry key="..\:/OFFICE/WEBMONEY/app/src/main/res/drawable/ic_onboared.xml" value="0.16197916666666667" />
+        <entry key="..\:/OFFICE/WEBMONEY/app/src/main/res/drawable/rectangular_ash.xml" value="0.16666666666666666" />
+        <entry key="..\:/OFFICE/WEBMONEY/app/src/main/res/drawable/rectangular_ash_border_white.xml" value="0.11302083333333333" />
+        <entry key="..\:/OFFICE/WEBMONEY/app/src/main/res/drawable/rectangular_black.xml" value="0.16666666666666666" />
+        <entry key="..\:/OFFICE/WEBMONEY/app/src/main/res/layout/activity_main.xml" value="0.18541666666666667" />
+        <entry key="..\:/OFFICE/WEBMONEY/app/src/main/res/layout/activity_match_page.xml" value="0.19947916666666668" />
+        <entry key="..\:/OFFICE/WEBMONEY/app/src/main/res/layout/activity_nrcpage.xml" value="0.19947916666666668" />
+        <entry key="..\:/OFFICE/WEBMONEY/app/src/main/res/layout/activity_onboared_page.xml" value="0.2" />
+        <entry key="..\:/OFFICE/WEBMONEY/app/src/main/res/layout/activity_splash.xml" value="0.19947916666666668" />
+        <entry key="..\:/OFFICE/WEBMONEY/app/src/main/res/layout/activity_submit_page.xml" value="0.33" />
+        <entry key="..\:/OFFICE/WEBMONEY/app/src/main/res/layout/dialog_toast.xml" value="0.19947916666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

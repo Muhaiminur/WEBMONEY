@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".SubmitPage">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/onb_close"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_margin="5dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_back" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Result"
+                android:textAlignment="center"
+                android:textColor="@color/app_ash3"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_margin="5dp"
+                android:contentDescription="@string/app_name"
+                android:src="@android:drawable/ic_menu_edit" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="NRC Number"
+                    android:textColor="#606262"
+                    android:textSize="@dimen/font_xl"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/reg_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="Approval Status"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_xxxl"
+                    android:textStyle="normal" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/bg_drop_shadow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="NRC Number (Burmese)"
+                    android:textColor="#606262"
+                    android:textSize="@dimen/font_xl"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/reg_num_bm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="Approval Status"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_xxxl"
+                    android:textStyle="normal" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/bg_drop_shadow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="Full Name"
+                    android:textColor="#606262"
+                    android:textSize="@dimen/font_xl"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/reg_fullname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="Father’s Name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_xxxl"
+                    android:textStyle="normal" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/bg_drop_shadow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="Full Name (Burmese)"
+                    android:textColor="#606262"
+                    android:textSize="@dimen/font_xl"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/reg_fullname_bm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="Approval Status"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_xxxl"
+                    android:textStyle="normal" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/bg_drop_shadow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="Father’s Name"
+                    android:textColor="#606262"
+                    android:textSize="@dimen/font_xl"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/reg_fathername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="Approval Status"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_xxxl"
+                    android:textStyle="normal" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/bg_drop_shadow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="Father’s Name (Burmese)"
+                    android:textColor="#606262"
+                    android:textSize="@dimen/font_xl"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/reg_fathername_bm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="Approval Status"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_xxxl"
+                    android:textStyle="normal" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/bg_drop_shadow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="Date of Birth"
+                    android:textColor="#606262"
+                    android:textSize="@dimen/font_xl"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/reg_dob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="Approval Status"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_xxxl"
+                    android:textStyle="normal" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/bg_drop_shadow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="Religion / Ethnicity"
+                    android:textColor="#606262"
+                    android:textSize="@dimen/font_xl"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/reg_religion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="Approval Status"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_xxxl"
+                    android:textStyle="normal" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/bg_drop_shadow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="Similarity Check %"
+                    android:textColor="#606262"
+                    android:textSize="@dimen/font_xl"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/reg_likeness"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="Likeness check %"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_xxxl"
+                    android:textStyle="normal" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/bg_drop_shadow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="Liveness check %"
+                    android:textColor="#606262"
+                    android:textSize="@dimen/font_xl"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/reg_liveness"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="Liveness check %"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_xxxl"
+                    android:textStyle="normal" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/bg_drop_shadow" />
+
+
+                <!--<TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="Approval Status"
+                    android:textColor="#606262"
+                    android:textSize="@dimen/font_xl"
+                    android:textStyle="normal" />
+
+                <TextView
+
+                    android:id="@+id/reg_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="Approval Status"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_xxxl"
+                    android:textStyle="normal" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/bg_drop_shadow" />-->
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:hint="Enter Phone Number"
+                    app:hintTextColor="@color/black">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/reg_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="phone"
+                        android:textColor="@color/app_blue1" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/bg_drop_shadow" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/reg_start"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:background="@drawable/rectangular_black"
+                    android:padding="5dp"
+                    android:text="Submit"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_xl"
+                    android:textStyle="bold"
+                    app:backgroundTint="@null" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>

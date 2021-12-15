@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context=".NRCPage">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/nrc_back"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_margin="5dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_back" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/nrctittle_string"
+                    android:textAlignment="center"
+                    android:textColor="@color/app_ash3"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/nrc_view1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/nrc_fronttitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:padding="5dp"
+                    android:text="Place your document in the rectangle\nUpload Your NRC Front Side"
+                    android:textAlignment="center"
+                    android:textColor="#060D16"
+                    android:textSize="@dimen/font_xxxl"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+
+                <ImageView
+                    android:id="@+id/nrc_frontimage"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_nrcupload" />
+
+                <LinearLayout
+                    android:id="@+id/nrc_view11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/nrc_browse"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/rectangular_ash_border_white"
+                        android:padding="5dp"
+                        android:text="@string/browse_string"
+                        android:textAlignment="center"
+                        android:textColor="#606262"
+                        android:textSize="@dimen/font_xl"
+                        android:textStyle="bold"
+                        app:backgroundTint="@null" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/nrc_camera"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/rectangular_ash_border_white"
+                        android:padding="5dp"
+                        android:text="@string/cam_string"
+                        android:textAlignment="center"
+                        android:textColor="#606262"
+                        android:textSize="@dimen/font_xl"
+                        android:textStyle="bold"
+                        app:backgroundTint="@null" />
+                </LinearLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/nrc_retakefront"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:background="@drawable/rectangular_ash_border_white"
+                    android:padding="5dp"
+                    android:text="@string/retake_string"
+                    android:textAlignment="center"
+                    android:textColor="#606262"
+                    android:textSize="@dimen/font_xl"
+                    android:textStyle="bold"
+                    android:visibility="gone"
+                    app:backgroundTint="@null" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/nrc_next1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:background="@drawable/rectangular_black"
+                    android:padding="5dp"
+                    android:text="@string/next_string"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_xl"
+                    android:textStyle="bold"
+                    app:backgroundTint="@null" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/nrc_view2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/nrc_frontimage2"
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="5dp"
+                        android:contentDescription="@string/app_name"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_nrcupload" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:padding="5dp"
+                            android:text="NRC Front Side"
+                            android:textAlignment="center"
+                            android:textColor="#060D16"
+                            android:textSize="@dimen/font_xxxl"
+                            android:textStyle="bold" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/nrc_retakefront2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/rectangular_ash_border_white"
+                            android:padding="5dp"
+                            android:text="Retake"
+                            android:textAlignment="center"
+                            android:textColor="#606262"
+                            android:textSize="@dimen/font_xl"
+                            android:textStyle="bold"
+                            app:backgroundTint="@null" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/bg_drop_shadow" />
+
+                <TextView
+                    android:id="@+id/nrc_backtittle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:padding="5dp"
+                    android:text="Upload or take a picture of \nYour NRC Back Side"
+                    android:textAlignment="center"
+                    android:textColor="#060D16"
+                    android:textSize="@dimen/font_xxxl"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+
+                <ImageView
+                    android:id="@+id/nrc_backimage"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_nrcupload" />
+
+                <LinearLayout
+                    android:id="@+id/nrc_view21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/nrc_browse2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/rectangular_ash_border_white"
+                        android:padding="5dp"
+                        android:text="@string/browse_string"
+                        android:textAlignment="center"
+                        android:textColor="#606262"
+                        android:textSize="@dimen/font_xl"
+                        android:textStyle="bold"
+                        app:backgroundTint="@null" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/nrc_camera2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/rectangular_ash_border_white"
+                        android:padding="5dp"
+                        android:text="@string/cam_string"
+                        android:textAlignment="center"
+                        android:textColor="#606262"
+                        android:textSize="@dimen/font_xl"
+                        android:textStyle="bold"
+                        app:backgroundTint="@null" />
+                </LinearLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/nrc_retakeback"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rectangular_ash_border_white"
+                    android:padding="5dp"
+                    android:text="@string/retake_string"
+                    android:textAlignment="center"
+                    android:textColor="#606262"
+                    android:textSize="@dimen/font_xl"
+                    android:textStyle="bold"
+                    android:visibility="gone"
+                    app:backgroundTint="@null" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/nrc_next2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:background="@drawable/rectangular_black"
+                    android:padding="5dp"
+                    android:text="@string/next_string"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_xl"
+                    android:textStyle="bold"
+                    app:backgroundTint="@null" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</layout>
